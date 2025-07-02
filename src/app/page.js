@@ -5,9 +5,7 @@ export default function Home() {
     <div className="container mx-auto py-8">
       <h1 className="text-4xl font-bold mb-4">Welcome to the Next.js Boilerplate</h1>
       <p className="text-lg mb-6">A scalable app with authentication and shadcn/ui components.</p>
-      <Button asChild>
-        <a href="/dashboard">Go to Dashboard</a>
-      </Button>
+    
     </div>
   );
 }

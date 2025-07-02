@@ -1,9 +1,5 @@
 import { SignIn } from '@clerk/nextjs';
-
+import SignInViewPage from '@/features/auth/components/sign-in-view';
 export default function SignInPage() {
-  return (
-    <div className="container mx-auto py-8 flex justify-center">
-      <SignIn />
-    </div>
-  );
+  return <SignInViewPage stars={3000} />
 }
